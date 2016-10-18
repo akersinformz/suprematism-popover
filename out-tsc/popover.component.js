@@ -191,8 +191,8 @@ var PopoverComponent = (function () {
     PopoverComponent = __decorate([
         core_1.Component({
             selector: 'supre-popover',
-            template: require('./popover.component.html'),
-            styles: [require('./popover.component.css')] // when developing use .scss
+            templateUrl: 'popover.component.html',
+            styleUrls: ['popover.component.css'] // when developing use .scss
         }), 
         __metadata('design:paramtypes', [core_1.ElementRef, core_1.ChangeDetectorRef])
     ], PopoverComponent);

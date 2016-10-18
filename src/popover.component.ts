@@ -5,8 +5,8 @@ import { PopoverPositionType } from './popover-position.type';
 
 @Component({
   selector: 'supre-popover',
-  template: require('./popover.component.html'),
-  styles: [require('./popover.component.css')] // when developing use .scss
+  templateUrl: 'popover.component.html',
+  styleUrls: ['popover.component.css'] // when developing use .scss
 })
 export class PopoverComponent implements AfterViewInit {
 
